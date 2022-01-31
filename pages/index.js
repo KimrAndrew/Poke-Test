@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <h1>Hello World!</h1>
-      <button onClick={handleClick}></button>
+      <button className = 'bg-red-300' onClick={handleClick}>Count!</button>
       <p>Count: {count}</p>
     </div>
   )
